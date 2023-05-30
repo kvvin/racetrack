@@ -1,5 +1,5 @@
-# Unity 3D Car Racing Game
-This Unity 3D project is a basic car racing game that includes a racetrack and a race car asset. The game allows the player to control the car using arrow key controls. The car asset is equipped with a physics controller, and the camera follows the car in a third-person perspective view.
+# Unity 3D Race car simulation
+This Unity 3D project is a basic race car simulation that includes a racetrack and a race car asset. The game allows the player to control the car using arrow key controls. The car asset is equipped with a physics controller, and the camera follows the car in a third-person perspective view.
 
 # Steps
  - Set up the Unity 3D environment.
