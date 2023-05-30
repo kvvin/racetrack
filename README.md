@@ -19,8 +19,8 @@ The cameraController script is responsible for following the car and maintaining
 
 Feel free to customize and enhance the game according to your requirements. Enjoy racing!
 
-Racetrack asset: https://assetstore.unity.com/packages/3d/environments/roadways/environmental-race-track-pack-63493
-Race car asset: https://assetstore.unity.com/packages/3d/vehicles/land/arcade-free-racing-car-161085
+- Racetrack asset: https://assetstore.unity.com/packages/3d/environments/roadways/environmental-race-track-pack-63493
+- Race car asset: https://assetstore.unity.com/packages/3d/vehicles/land/arcade-free-racing-car-161085
 
 # Screenshots:
 
