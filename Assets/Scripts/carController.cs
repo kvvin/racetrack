@@ -2,17 +2,17 @@ using UnityEngine;
 
 public class carController : MonoBehaviour
 {
-    public WheelCollider WheelFL;
-    public WheelCollider WheelFR;
-    public WheelCollider WheelRL;
-    public WheelCollider WheelRR;
-    public Transform WheelFLtrans;
-    public Transform WheelFRtrans;
-    public Transform WheelRLtrans;
-    public Transform WheelRRtrans;
-    public Transform centreofmass;
-    public float maxTorque = 1000f;
-    public float steerAngle = 30f;
+    public WheelCollider WheelFL;       // Front left wheel collider
+    public WheelCollider WheelFR;       // Front right wheel collider
+    public WheelCollider WheelRL;       // Rear left wheel collider
+    public WheelCollider WheelRR;       // Rear right wheel collider
+    public Transform WheelFLtrans;      // Front left wheel mesh transform
+    public Transform WheelFRtrans;      // Front right wheel mesh transform
+    public Transform WheelRLtrans;      // Rear left wheel mesh transform
+    public Transform WheelRRtrans;      // Rear right wheel mesh transform
+    public Transform centreofmass;      // Centre of mass transform
+    public float maxTorque = 1000f;     // Maximum torque applied to rear wheels
+    public float steerAngle = 30f;      // Maximum steering angle for front wheels
 
     private Rigidbody rb;
 

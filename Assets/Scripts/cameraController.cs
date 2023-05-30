@@ -2,13 +2,13 @@ using UnityEngine;
 
 public class cameraController : MonoBehaviour
 {
-    public Transform target;
-    public Vector3 offset;
-    public float smoothSpeed = 0.125f;
-    public float rotationDamping = 5f;
+    public Transform target;                    // The target object to follow
+    public Vector3 offset;                      // The offset from the target's position
+    public float smoothSpeed = 0.125f;          // The smoothing factor for camera movement
+    public float rotationDamping = 5f;          // The damping factor for camera rotation
 
-    private Vector3 desiredPosition;
-    private Quaternion desiredRotation;
+    private Vector3 desiredPosition;            // The desired position of the camera
+    private Quaternion desiredRotation;         // The desired rotation of the camera
 
     void LateUpdate()
     {

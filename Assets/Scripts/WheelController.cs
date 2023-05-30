@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class WheelController : MonoBehaviour
 {
-    public Transform wheelMesh;
-    public WheelCollider wheelCollider;
-    public bool isFrontWheel;
+    public Transform wheelMesh;         // The wheel mesh to be synchronized
+    public WheelCollider wheelCollider; // The corresponding wheel collider
+    public bool isFrontWheel;           // Indicates if the wheel is a front wheel
 
     void FixedUpdate()
     {
