@@ -2,11 +2,11 @@
 This Unity 3D project is a basic car racing game that includes a racetrack and a race car asset. The game allows the player to control the car using arrow key controls. The car asset is equipped with a physics controller, and the camera follows the car in a third-person perspective view.
 
 # Steps
-Set up the Unity 3D environment.
-Import the racetrack and race car asset from the Unity Asset Store.
-Create the car controller script.
-Create the wheel controller script.
-Create the camera controller script.
+ - Set up the Unity 3D environment.
+ - Import the racetrack and race car asset from the Unity Asset Store.
+ - Create the car controller script.
+ - Create the wheel controller script.
+ - Create the camera controller script.
 
 # Car Controller Script
 The carController script controls the movement and steering of the car. It includes references to the wheel colliders and wheel meshes. The script applies motor torque to the rear wheels based on the vertical input axis (arrow keys), and it applies steering angle to the front wheels based on the horizontal input axis. The script also updates the wheel rotation based on the wheel collider's pose.
